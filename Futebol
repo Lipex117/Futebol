@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Futebol</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .video {
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .video iframe {
+            display: block;
+            width: 100%;
+            height: 315px;
+        }
+        .video h2 {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Futebol</h1>
+
+    <div class="video-container">
+        <div class="video">
+            <h2>Vídeo 1: Futebol Incrível</h2>
+            <iframe src="https://www.youtube.com/embed/rsDf9E1RxYU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h2>Vídeo 2: Momentos Épicos no Futebol</h2>
+            <iframe src="https://www.youtube.com/embed/-StakUOzNEc" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
